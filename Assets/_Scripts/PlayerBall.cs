@@ -75,6 +75,7 @@ public class PlayerBall : MonoBehaviour
         {
             obj.SetActive(true);
         }
+
         playerBall.SetActive(true);
         playerBall.transform.position = new Vector3(20,0.5f, 30);
         pickUpsDestroyed.Clear();
